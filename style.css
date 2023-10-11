@@ -11,9 +11,9 @@
  *   #ede0d4
  *   #e6ccb2
  *   #ddb892
- *   #b08968
- *   #7f5539
- *   #9c6644
+ *   #b08968 hella light brown
+ *   #7f5539 light brown
+ *   #9c6644 chocolate brown
  *
  * https://coolors.co/palette/ede0d4-e6ccb2-ddb892-b08968-7f5539-9c6644
  */
@@ -30,8 +30,66 @@
 
 html {
   font-size: 1.0rem;
+  background-color: #b08968
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 4rem;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background color: #9c6644;
+  align-self: column;
+  width: 20rem;
+  height: 1rem;
+}
+
+.stuff {
+  background-color: #ede0d4;
+  border-radius: 10px;
+  border: 3rem;
+  align-items: column;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+img { 
+  width: 600px;
+  height: 300px;
+  object-fit: fill;
+}
+
+
+.money {
+  font-size: xxx-large;
+  color: #9c6644;
+}
+
+.buynow {
+display: block;
+background color: #964B00;
+color: #FFFFFF;
+text-decoration: none; 
+border-radius: 3rem; 
+}
+
+.hot {
+  font-weight: 100;
+  color: #5C4033;
+}
+
+
+.indulge {
+  color: #5C4033;
+}
+
+.capp {
+  font-weight: 900;
+  color:#5C4033
 }
